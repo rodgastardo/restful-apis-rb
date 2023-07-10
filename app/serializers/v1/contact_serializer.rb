@@ -16,9 +16,6 @@ module V1
       link(:related) { v1_contact_address_url(object.id) }
     end
 
-    # link(:self) { contact_url(object.id) }
-    # link(:kind) { kind_url(object.kind.id) }
-
     # def author
     # "Rodrigo Gastardo"
     # end
